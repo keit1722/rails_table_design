@@ -1,12 +1,12 @@
-- articles
+- questions
   - title:string
   - content:text
   - user_id:integer
   - solved:boolean
 
-- responses
+- answers
   - content:text
-  - article_id:integer
+  - question_id:integer
   - user_id:integer
 
 - users
